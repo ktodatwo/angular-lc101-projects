@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = 'And now some pictures of ducks:';
+  image1 = 'https://s3.amazonaws.com/newhobbyfarms.com/wp-content/uploads/2016/08/24105037/ducks-garden-2-Dog-Farm-Flickr-600x347.jpg';
+  image2 = 'https://www.treehugger.com/thmb/aOmgLLmSXABYpnuiPvPwrM9SZc8=/1365x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/duckling-close-up-500315849-572917c93df78ced1f0b99ec.jpg';
+  image3 = 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/how-to-keep-ducks-call-ducks-1615457181.jpg?resize=640:*';
 
   constructor() { }
 
